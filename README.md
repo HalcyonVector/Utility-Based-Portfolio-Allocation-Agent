@@ -1,10 +1,10 @@
-# 📈 Utility-Based Portfolio Allocation Agent — Interactive Demo
+# Utility-Based Portfolio Allocation Agent — Interactive Demo
 
 A React-based interactive dashboard for visualizing an AI-driven portfolio allocation engine that selects optimal stock weights by maximizing expected utility across three investor risk profiles. Built as a course demo for **Intelligent Agents & AI (IAI)** at MIT Manipal.
 
 ---
 
-## 🎯 Features
+## Features
 
 ### Core Features
 - **Interactive Portfolio Simulator** — Toggle between Aggressive (λ=0.5), Balanced (λ=2.0), and Conservative (λ=5) investor profiles and see allocation charts update in real time
@@ -36,7 +36,7 @@ A React-based interactive dashboard for visualizing an AI-driven portfolio alloc
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology | Details |
 |-----------|-----------|---------|
@@ -50,7 +50,7 @@ A React-based interactive dashboard for visualizing an AI-driven portfolio alloc
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 - **Node.js 18+** — [Download here](https://nodejs.org/)
 - **npm 9+** — Comes automatically with Node.js
@@ -58,7 +58,7 @@ A React-based interactive dashboard for visualizing an AI-driven portfolio alloc
 
 ---
 
-## 🚀 Quick Start (3 Steps)
+## Quick Start (3 Steps)
 
 ### Step 1: Install Dependencies
 
@@ -86,7 +86,7 @@ Navigate to: **http://localhost:5173**
 
 ---
 
-## 📖 Detailed Setup Instructions
+## Detailed Setup Instructions
 
 ### Windows
 
@@ -116,7 +116,7 @@ npm run dev
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Project/
@@ -148,7 +148,7 @@ Project/
 
 ---
 
-## 📊 Hardcoded Data & Methodology
+## Hardcoded Data & Methodology
 
 All data in the dashboard is derived from the research paper and hardcoded for the demo — no live API calls are made.
 
@@ -178,7 +178,7 @@ All data in the dashboard is derived from the research paper and hardcoded for t
 
 ---
 
-## 🖨️ PDF Export
+## PDF Export
 
 The dashboard includes a one-click PDF export button in the hero section:
 
@@ -188,7 +188,7 @@ The dashboard includes a one-click PDF export button in the hero section:
 
 ---
 
-## 🔧 Available Scripts
+## Available Scripts
 
 | Script | Command | Description |
 |--------|---------|-------------|
@@ -199,7 +199,7 @@ The dashboard includes a one-click PDF export button in the hero section:
 
 ---
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Issue: `npm install` fails with peer dependency errors
 **Solution:** Use the legacy peer deps flag:
@@ -231,7 +231,7 @@ npm run dev
 
 ---
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - [ ] Live stock data integration via a financial API (e.g. Yahoo Finance, Alpha Vantage)
 - [ ] User-adjustable λ slider for continuous utility optimization
@@ -244,12 +244,13 @@ npm run dev
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-**Vector**  
-GitHub: [@HalcyonVector](https://github.com/HalcyonVector)  
+**Sagnik**
 
-## 🙋 Support
+GitHub: [@HalcyonVector](https://github.com/HalcyonVector)
+
+## Support
 
 Found a bug or have a feature request?  
 [Open an issue](https://github.com/HalcyonVector/formflow/issues) on GitHub.
@@ -257,10 +258,9 @@ Found a bug or have a feature request?
 
 ---
 
-## 📄 License
+## License
 
 No specific license. Contact the authors for usage rights.
 
 ---
 
-**Made with 📊 for intelligent finance enthusiasts**
