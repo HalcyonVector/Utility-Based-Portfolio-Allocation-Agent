@@ -1,38 +1,42 @@
-# Utility-Based Portfolio Allocation Agent — Interactive Demo
+# Utility-Based Portfolio Allocation Agent: Interactive Demo
 
 A React-based interactive dashboard for visualizing an AI-driven portfolio allocation engine that selects optimal stock weights by maximizing expected utility across three investor risk profiles. Built as a course demo for **Intelligent Agents & AI (IAI)** at MIT Manipal.
+
+> **What it's for:** see how an agent that maximizes expected utility allocates the same six stocks differently for aggressive, balanced and conservative investors, and why.
+
+![Dashboard: how it works, asset overview, portfolio simulator and allocation charts](docs/screenshots/overview.png)
 
 ---
 
 ## Features
 
 ### Core Features
-- **Interactive Portfolio Simulator** — Toggle between Aggressive (λ=0.5), Balanced (λ=2.0), and Conservative (λ=5) investor profiles and see allocation charts update in real time
-- **Efficient Frontier Visualization** — 5,000 simulated Monte Carlo portfolio combinations plotted with optimal portfolios highlighted for each risk profile
-- **Asset Overview Grid** — 6-stock card grid (AAPL, MSFT, JNJ, JPM, XOM, AMZN) showing expected return, risk, and sector badges
-- **Correlation Heatmap** — Hardcoded pairwise correlation matrix for all six equities with color-coded cells
-- **Cumulative Growth Chart** — 24-month simulated portfolio growth trajectories across all three investor profiles
-- **Monte Carlo Return Distribution** — Histogram of 5,000 simulated annual returns for the selected active profile
-- **Profile Comparison Panel** — Side-by-side utility score, expected return, and risk metrics for all three profiles
-- **PDF Export** — One-click report export using jsPDF + html2canvas
+- **Interactive Portfolio Simulator**: Toggle between Aggressive (λ=0.5), Balanced (λ=2.0), and Conservative (λ=5) investor profiles and see allocation charts update in real time
+- **Efficient Frontier Visualization**: 5,000 simulated Monte Carlo portfolio combinations plotted with optimal portfolios highlighted for each risk profile
+- **Asset Overview Grid**: 6-stock card grid (AAPL, MSFT, JNJ, JPM, XOM, AMZN) showing expected return, risk, and sector badges
+- **Correlation Heatmap**: Hardcoded pairwise correlation matrix for all six equities with color-coded cells
+- **Cumulative Growth Chart**: 24-month simulated portfolio growth trajectories across all three investor profiles
+- **Monte Carlo Return Distribution**: Histogram of 5,000 simulated annual returns for the selected active profile
+- **Profile Comparison Panel**: Side-by-side utility score, expected return, and risk metrics for all three profiles
+- **PDF Export**: One-click report export using jsPDF + html2canvas
 
 ### Dashboard Sections
-- **Hero Section** — Project title, tagline, MIT Manipal branding, and authors
-- **How It Works** — 5-step pipeline walkthrough (data → utility function → optimizer → profiles → comparison)
-- **Asset Overview** — Stock cards with sector color badges (Technology, Healthcare, Financials, Energy, Consumer Discretionary)
-- **Portfolio Simulator** — Donut chart + bar chart allocation view with rebalancing frequency selector
-- **Efficient Frontier** — Scatter plot of 5,000 portfolios with three optimal-point callouts
-- **Correlation Heatmap** — 6×6 matrix rendered as an interactive color grid
-- **Cumulative Growth** — Area/line chart showing 24-month growth simulation
-- **Monte Carlo Distribution** — Bar histogram of simulated annual returns
-- **Profile Comparison** — Metric cards for Aggressive, Balanced, and Conservative outcomes
+- **Hero Section**: Project title, tagline, MIT Manipal branding, and authors
+- **How It Works**: 5-step pipeline walkthrough (data → utility function → optimizer → profiles → comparison)
+- **Asset Overview**: Stock cards with sector color badges (Technology, Healthcare, Financials, Energy, Consumer Discretionary)
+- **Portfolio Simulator**: Donut chart + bar chart allocation view with rebalancing frequency selector
+- **Efficient Frontier**: Scatter plot of 5,000 portfolios with three optimal-point callouts
+- **Correlation Heatmap**: 6×6 matrix rendered as an interactive color grid
+- **Cumulative Growth**: Area/line chart showing 24-month growth simulation
+- **Monte Carlo Distribution**: Bar histogram of simulated annual returns
+- **Profile Comparison**: Metric cards for Aggressive, Balanced, and Conservative outcomes
 
 ### Visualization Suite
-- **Donut Charts** — Proportional allocation breakdown per investor profile
-- **Bar Charts** — Per-asset allocation comparison across AAPL, MSFT, JNJ, JPM, XOM, AMZN
-- **Scatter Plot** — Efficient frontier cloud with highlighted optimal portfolios
-- **Area Charts** — Smooth cumulative growth trajectories with gradient fills
-- **Histogram** — Monte Carlo return distribution with frequency buckets
+- **Donut Charts**: Proportional allocation breakdown per investor profile
+- **Bar Charts**: Per-asset allocation comparison across AAPL, MSFT, JNJ, JPM, XOM, AMZN
+- **Scatter Plot**: Efficient frontier cloud with highlighted optimal portfolios
+- **Area Charts**: Smooth cumulative growth trajectories with gradient fills
+- **Histogram**: Monte Carlo return distribution with frequency buckets
 
 ---
 
@@ -52,9 +56,9 @@ A React-based interactive dashboard for visualizing an AI-driven portfolio alloc
 
 ## Prerequisites
 
-- **Node.js 18+** — [Download here](https://nodejs.org/)
-- **npm 9+** — Comes automatically with Node.js
-- **Modern browser** — Chrome, Firefox, Safari, or Edge
+- **Node.js 18+**: [Download here](https://nodejs.org/)
+- **npm 9+**: Comes automatically with Node.js
+- **Modern browser**: Chrome, Firefox, Safari, or Edge
 
 ---
 
@@ -76,8 +80,8 @@ You should see:
 ```
   VITE v8.x.x  ready in Xms
 
-  ➜  Local:   http://localhost:5173/
-  ➜  Network: use --host to expose
+  Local:   http://localhost:5173/
+  Network: use --host to expose
 ```
 
 ### Step 3: Open in Browser
@@ -150,7 +154,7 @@ Project/
 
 ## Hardcoded Data & Methodology
 
-All data in the dashboard is derived from the research paper and hardcoded for the demo — no live API calls are made.
+All data in the dashboard is derived from the research paper and hardcoded for the demo, no live API calls are made.
 
 ### Assets
 
@@ -220,7 +224,7 @@ node --version  # Should be v18.x or higher
 ```
 
 ### Issue: PDF export produces a blank file
-**Solution:** Wait for all charts to fully render before clicking Export — the `html2canvas` capture requires the DOM to be painted. Try scrolling through the dashboard once before exporting.
+**Solution:** Wait for all charts to fully render before clicking Export, the `html2canvas` capture requires the DOM to be painted. Try scrolling through the dashboard once before exporting.
 
 ### Issue: `vite: command not found`
 **Solution:** Run `npm install` first to restore the local `node_modules`:
@@ -253,7 +257,7 @@ GitHub: [@HalcyonVector](https://github.com/HalcyonVector)
 ## Support
 
 Found a bug or have a feature request?  
-[Open an issue](https://github.com/HalcyonVector/formflow/issues) on GitHub.
+[Open an issue](https://github.com/HalcyonVector/Utility-Based-Portfolio-Allocation-Agent/issues) on GitHub.
 
 
 ---
